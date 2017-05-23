@@ -1,0 +1,2 @@
+# nlp-notebook
+self-study
