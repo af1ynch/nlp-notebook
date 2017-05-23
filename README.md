@@ -1,2 +1,2 @@
 # nlp-notebook
-self-study
+to be continued
