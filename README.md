@@ -52,14 +52,16 @@ GitHub Flavored Markdown 语法详解
 --------
 	格式为：![alt](URL title)
 alt和title即对应HTML中的alt和title属性（都可省略）:
-- alt表示图片显示失败时的替换文本
-- title表示鼠标停留在图片时的显示文本（注意这里要加引号）
-URL即为图片的url地址，如果引用本repo中的图片，直接使用**相对路径**即可，如果引用其他repo中的图片注意格式：**仓库地址/raw/分支名/图片路径**   
+- alt表示图片显示失败时的替换文本)
+- title表示鼠标停留在图片时的显示文本（注意这里要加引号）   
+   
+URL即为图片的url地址，如果引用本repo中的图片，直接使用**相对路径**即可，如果引用其他仓库中的图片注意格式：**仓库地址/raw/分支名/图片路径**   
 
 |#|语法|效果|
 |---|---|---
 |1|`![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")`|![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")
 |2|`![](http://www.baidu.com/img/bdlogo.gif)`|![](http://www.baidu.com/img/bdlogo.gif)
+   
 ### 链接
 --------
 Markdown 支持两种形式的链接语法：行内式和参考式两种形式   
@@ -69,7 +71,9 @@ Markdown 支持两种形式的链接语法：行内式和参考式两种形式
  - alt显示链接文字
  - title表示鼠标停留在链接时显示的文字
 其中alt和title都可以省略   
-   
+   
+url既可以是外部链接地址，也可以是本地仓库的地址
+   
 |#|语法|效果|
 |--------|-----------------|------------|
 |1|`[知乎](https://www.zhihu.com/ "首页")`|[知乎](https://www.zhihu.com/ "首页")|
@@ -77,11 +81,14 @@ Markdown 支持两种形式的链接语法：行内式和参考式两种形式
 
 **参考式语法：**   
     
-    [alt][id]
+    [alt][id]     [id]: url
 - alt 显示链接文字
 - id表示用于辨识链接的标记
+   
 然后在文件任意处把id标记的链接内容定义出来   
    
+url既可以是外部链接地址，也可以是本地仓库的地址
+   
 |#|语法|效果|
 |---|---|---|
 |1|`[知乎][zhihu(or other id)]  [zhihu]: https://www.zhihu.com/`|[知乎][zhihu]|
