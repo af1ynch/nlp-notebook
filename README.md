@@ -5,7 +5,7 @@
     Author: lynch
     E-mail: aflynch@126.com
 ## 目录
-* [绪论](#自然语言处理)
+* [绪论](https://github.com/af1ynch/nlp-notebook/tree/master)
 * 自然语言处理中的关键技术
     * 词法分析
         * 自动分词
