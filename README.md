@@ -57,13 +57,21 @@ alt和title即对应HTML中的alt和title属性（都可省略）:<br>
 URL即为图片的url地址，如果引用本repo中的图片，直接使用**相对路径**即可，如果引用其他repo中的图片注意格式：`仓库地址/raw/分支名/图片路径`.<br>
 |#|语法|效果|
 |---|---|---|
-|1|`![图片显示失败](http://wx2.sinaimg.cn/large/77ba098bgy1ffr3i7d3zij21kw167wx1.jpg "鲸鱼座")`|![图片显示失败](http://wx2.sinaimg.cn/large/77ba098bgy1ffr3i7d3zij21kw167wx1.jpg "鲸鱼座")|
-|2|`![](http://wx2.sinaimg.cn/large/6b2667cbgy1ffv2s9idr3j20ci0ci0t6.jpg)`|![](http://wx2.sinaimg.cn/large/6b2667cbgy1ffv2s9idr3j20ci0ci0t6.jpg)|
+|1|`![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")`|![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")|
+|2|`![](http://www.baidu.com/img/bdlogo.gif)`|![](http://www.baidu.com/img/bdlogo.gif)|
 
 ### 链接
 --------
-#### 链接外部URL
-Markdown 支持两种形式地链接语法：行内式和参考式两种形式<br>
+Markdown 支持两种形式的链接语法：行内式和参考式两种形式<br>
+- 行内式语法：<br>
+    [alt](url title)
+    - alt显示链接文本
+    - title表示鼠标停留在链接时显示的文本
+其中alt和title都可以省略
+|#|语法|效果|
+|---|---|---|
+|1|`[知乎](https://www.zhihu.com/ "首页")`|[知乎](https://www.zhihu.com/ "首页")|
+|2|`https://www.zhihu.com/`|https://www.zhihu.com/|
 不管是哪种形式，链接文字都是用方括号[]来标记，要建立一个**行内式**的链接，只要在方括号后面紧跟着圆括号并插入网址链接即可，如果好像要加上链接的title文字，只要在网址后面用双引号将title包围起来,当然，链接文字和title文字都是可选的。<br>
 [知乎](https://www.zhihu.com/ "首页")<br>
 https://www.zhihu.com/
