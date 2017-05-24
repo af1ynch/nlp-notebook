@@ -21,9 +21,9 @@
     * 对话系统
     * 问答系统
 * 自然语言处理中的深度学习技术
-    * 循环神经网络
     * 卷积神经网络
+    * 循环神经网络
 
 ## 参考
-[统计自然语言处理](https://book.douban.com/subject/25746399/)   
+[统计自然语言处理](https://book.douban.com/subject/25746399/)   
 [码农场](http://www.hankcs.com/)
