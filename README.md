@@ -11,7 +11,7 @@
 * [绪论](https://github.com/af1ynch/nlp-notebook/tree/master/绪论)
 * [自然语言处理中的关键技术](https://github.com/af1ynch/nlp-notebook/tree/master/自然语言处理中的关键技术)
     * 词法分析
-        * [自动分词](https://github.com/af1ynch/nlp-notebook/blob/master/自然语言处理中的关键技术/中文分词.md)
+        * [自动分词](https://github.com/af1ynch/nlp-notebook/blob/master/自然语言处理中的关键技术/中文分词.md)
         * 词性标注
         * 命名实体识别
     * 句法分析
