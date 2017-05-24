@@ -56,16 +56,15 @@ alt和title即对应HTML中的alt和title属性（都可省略）:
 - title表示鼠标停留在图片时的显示文本（注意这里要加引号）
 URL即为图片的url地址，如果引用本repo中的图片，直接使用**相对路径**即可，如果引用其他repo中的图片注意格式：**仓库地址/raw/分支名/图片路径** 
 |#|语法|效果|
-|---|---|---|
-|1|`![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")`|![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")|
-|2|`![](http://www.baidu.com/img/bdlogo.gif)`|![](http://www.baidu.com/img/bdlogo.gif)|
+|---|---|---
+|1|`![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")`|![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")
+|2|`![](http://www.baidu.com/img/bdlogo.gif)`|![](http://www.baidu.com/img/bdlogo.gif)
 ### 链接
 --------
-Markdown 支持两种形式的链接语法：行内式和参考式两种形式
-行内式语法:
-	[alt](url title)
-    - alt显示链接文本
-    - title表示鼠标停留在链接时显示的文本
+Markdown 支持两种形式的链接语法：行内式和参考式两种形式   
+行内式语法:[alt](url title)
+ - alt显示链接文本
+ - title表示鼠标停留在链接时显示的文本
 其中alt和title都可以省略   
 |#|语法|效果|
 |---|---|---|
