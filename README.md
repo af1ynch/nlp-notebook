@@ -64,6 +64,7 @@ URL即为图片的url地址，如果引用本repo中的图片，直接使用**�
 --------
 Markdown 支持两种形式的链接语法：行内式和参考式两种形式   
 **行内式语法:**   
+    
     [alt](url title)
  - alt显示链接文字
  - title表示鼠标停留在链接时显示的文字
@@ -75,6 +76,7 @@ Markdown 支持两种形式的链接语法：行内式和参考式两种形式
 |2|`https://www.zhihu.com/`|https://www.zhihu.com/|   
 
 **参考式语法：**   
+    
     [alt][id]
 - alt 显示链接文字
 - id表示用于辨识链接的标记
@@ -82,4 +84,6 @@ Markdown 支持两种形式的链接语法：行内式和参考式两种形式
    
 |#|语法|效果|
 |---|---|---|
-|1|`[知乎][zhihu(or other id)]  [zhihu]: https://www.zhihu.com/`|[知乎][zhihu] [zhihu]: https://www.zhihu.com/|
+|1|`[知乎][zhihu(or other id)]  [zhihu]: https://www.zhihu.com/`|[知乎][zhihu]|
+   
+[zhihu]: https://www.zhihu.com/
