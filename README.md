@@ -14,8 +14,8 @@ GitHub Flavored Markdown 语法详解
 * [链接](#链接)
     * [行内式语法](#行内式语法)
     * [参考式语法](#参考式语法)
-    * [图片链接](#图片链接)
-    * [超链接](#超链接)
+    * [图片链接](#图片链接)
+    * [超链接](#超链接)
 
 ### 标题
 -------
@@ -79,7 +79,7 @@ URL即为图片的url地址，如果引用本repo中的图片，直接使用**�
 ### 链接
 --------
 Markdown 支持两种形式的链接语法：行内式和参考式两种形式   
-#### 行内式语法:   
+#### 行内式语法   
     
     [alt](url title)
  - alt显示链接文字
@@ -91,9 +91,10 @@ Markdown 支持两种形式的链接语法：行内式和参考式两种形式
 |1|`[知乎](https://www.zhihu.com/ "首页")`|[知乎](https://www.zhihu.com/ "首页")|
 |2|`https://www.zhihu.com/`|https://www.zhihu.com/|   
    
-#### 参考式语法：   
-    
+#### 参考式语法   
+    
     [alt][id]
+    [id]: url
 - alt 显示链接文字
 - id表示用于辨识链接的标记   
 然后在文件任意处把id标记的链接内容定义出来;url既可以是外部链接地址，也可以是本地仓库的地址   
@@ -112,5 +113,5 @@ Markdown 支持两种形式的链接语法：行内式和参考式两种形式
 每一个标题都是一个锚点，和HTML的锚点类似。   
 
 |语法|效果|
-|`[回到顶部](#GitHub Flavored Markdown 语法详解)`|[回到顶部](#GitHub Flavored Markdown 语法详解)|
+|`[回到顶部](#GitHub Flavored Markdown 语法详解`|[回到顶部](#GitHub Flavored Markdown 语法详解)|
    
