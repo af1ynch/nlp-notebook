@@ -58,7 +58,7 @@ URL即为图片的url地址，如果引用本repo中的图片，直接使用**�
 |#|语法|效果|
 |---|---|---|
 |1|`![图片显示失败](http://wx2.sinaimg.cn/large/77ba098bgy1ffr3i7d3zij21kw167wx1.jpg "鲸鱼座")`|![图片显示失败](http://wx2.sinaimg.cn/large/77ba098bgy1ffr3i7d3zij21kw167wx1.jpg "鲸鱼座")|
-|2|`[](http://wx2.sinaimg.cn/large/6b2667cbgy1ffv2s9idr3j20ci0ci0t6.jpg)`|[](http://wx2.sinaimg.cn/large/6b2667cbgy1ffv2s9idr3j20ci0ci0t6.jpg)|
+|2|`![](http://wx2.sinaimg.cn/large/6b2667cbgy1ffv2s9idr3j20ci0ci0t6.jpg)`|![](http://wx2.sinaimg.cn/large/6b2667cbgy1ffv2s9idr3j20ci0ci0t6.jpg)|
 
 ### 链接
 --------
