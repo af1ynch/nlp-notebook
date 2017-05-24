@@ -24,5 +24,5 @@
     * 对话系统
     * 问答系统
 * [自然语言处理中的深度学习技术](https://github.com/af1ynch/nlp-notebook/tree/master/自然语言处理中的深度学习技术)
-    * [循环神经网络](https://github.com/af1ynch/nlp-notebook/tree/master/自然语言处理中的深度学习技术/循环神经网络.md)
+    * [循环神经网络](https://github.com/af1ynch/nlp-notebook/tree/master/自然语言处理中的深度学习技术/循环神经网络.md)
     * 卷积神经网络
