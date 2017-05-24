@@ -67,6 +67,6 @@ Markdown 支持两种形式的链接语法：行内式和参考式两种形式
  - title表示鼠标停留在链接时显示的文本
 其中alt和title都可以省略   
 |#|语法|效果|
-|---|---|---|
+|--------|-----------------|------------|
 |1|`[知乎](https://www.zhihu.com/ "首页")`|[知乎](https://www.zhihu.com/ "首页")|
-|2|`https://www.zhihu.com/`|https://www.zhihu.com/|
+
