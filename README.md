@@ -59,14 +59,13 @@ URL即为图片的url地址，如果引用本repo中的图片，直接使用**�
 <br>
 |#|语法|效果|
 |---|---|---|
-|1|`![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")`|![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")
-|2|`![](http://www.baidu.com/img/bdlogo.gif)`|![](http://www.baidu.com/img/bdlogo.gif)
-
+|1|`![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")`|![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")|
+|2|`![](http://www.baidu.com/img/bdlogo.gif)`|![](http://www.baidu.com/img/bdlogo.gif)|
 ### 链接
 --------
 Markdown 支持两种形式的链接语法：行内式和参考式两种形式<br>
-- 行内式语法：<br>
-    [alt](url title)
+行内式语法:
+	[alt](url title)
     - alt显示链接文本
     - title表示鼠标停留在链接时显示的文本
 <br>
@@ -75,6 +74,3 @@ Markdown 支持两种形式的链接语法：行内式和参考式两种形式<b
 |---|---|---|
 |1|`[知乎](https://www.zhihu.com/ "首页")`|[知乎](https://www.zhihu.com/ "首页")|
 |2|`https://www.zhihu.com/`|https://www.zhihu.com/|
-不管是哪种形式，链接文字都是用方括号[]来标记，要建立一个**行内式**的链接，只要在方括号后面紧跟着圆括号并插入网址链接即可，如果好像要加上链接的title文字，只要在网址后面用双引号将title包围起来,当然，链接文字和title文字都是可选的。<br>
-[知乎](https://www.zhihu.com/ "首页")<br>
-https://www.zhihu.com/
