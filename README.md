@@ -27,4 +27,4 @@
 * [自然语言处理中的深度学习技术](https://github.com/af1ynch/nlp-notebook/tree/master/自然语言处理中的深度学习技术)
     * [循环神经网络(RNN)](https://github.com/af1ynch/nlp-notebook/blob/master/自然语言处理中的深度学习技术/循环神经网络.md)
     * 卷积神经网络(CNN)
-    * 生成对抗网络(GAN)
+    * 生成对抗网络(GAN)
